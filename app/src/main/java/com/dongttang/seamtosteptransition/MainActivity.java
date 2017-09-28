@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements SampleAdaptor.Rec
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(adaptor);
         recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setItemViewCacheSize(10);
 
     }
 
